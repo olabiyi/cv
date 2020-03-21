@@ -1,0 +1,27 @@
+  p {
+	text-align : justify;
+  }
+  img {
+	float: left;
+  border-radius: 100%;
+  display: inline-block;
+  margin: 25px;
+  }
+  h1 {
+  color:#9dc6a7;
+  }
+  h3 {
+  color:#0000ff;
+  }
+ body {
+  background-color: #f4eeff;
+  }
+   hr {
+  border-color: grey;
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 5%;
+  }
+img:hover {
+  background-color:  gold;
+}
