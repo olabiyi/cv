@@ -1,0 +1,175 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+/* auto mens to keepe the element centered */
+h1{
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+
+p{
+    font-weight: bold;
+    line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border-color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 7%;
+}
+
+
+.top-container{
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* line-height property in p tags for double spacing text*/
+
+/* auto is used for centering the element*/
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.profile > img{
+  border-radius: 100%;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 25%;
+  top: 5%;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.bioinfo{
+  font-weight: normal;
+}
+
+.bottom-cloud{
+position: absolute;
+right: 70%;
+}
+
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px;
+  color: #EAF6F6;
+  margin-top: 50px;
+}
+
+
+.code{
+  width : 200px;
+  height: 200px;
+  float: left;
+  display: block;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.dna{
+  width : 200px;
+  height: 200px;
+  border-radius: 100%;
+  float: right;
+  display: block;
+  margin-right: 30px;
+}
+
+
+.footer-link{
+  margin: 20px 20px 50px auto;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.last-paragraph{
+  margin-top: 50px;
+  font-size: 0.75rem;
+}
+
+.hello{
+  width: 50%;
+  margin: auto;
+}
+
+.contact-paragraph{
+  width: 40%;
+  margin: auto;
+}
+
+
+
+.button {
+  background-color: #66BFBF;
+  border-color:  #66BFBF;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  font-size: 40px;
+  margin: 50px;
+  cursor: pointer;
+  font-weight: 100px;
+  border-radius: 2px;
+}
+
+.button:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   border-radius: 50%;
+   text-decoration: none;
+}
+
+/*
+clear to prevent the paragragh from wrapping
+arround the floating image in the same div
+.computer-programming{
+  clear: left;
+}
+
+.data-science{
+  clear: right;
+}
+
+*/
